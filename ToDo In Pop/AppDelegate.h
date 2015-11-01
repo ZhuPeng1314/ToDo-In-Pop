@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    EKEventStore * eventStore;
+    BOOL isAccessToEventStoreGranted;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) EKEventStore * eventStore;
+@property BOOL isAccessToEventStoreGranted;
 
 
 @end

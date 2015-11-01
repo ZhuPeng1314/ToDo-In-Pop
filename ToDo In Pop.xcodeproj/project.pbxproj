@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664E04B51B954E7B007E2B9B /* RoleEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664E04B41B954E7B007E2B9B /* RoleEditViewController.m */; };
+		664E04C31B96DBA4007E2B9B /* EventEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664E04C21B96DBA4007E2B9B /* EventEditViewController.m */; };
+		664E04C91B9812A8007E2B9B /* EventAttributeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 664E04C81B9812A8007E2B9B /* EventAttributeInfo.plist */; };
+		66BF8DE91BAE88A200FF6442 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF8DE81BAE88A200FF6442 /* EventListViewController.m */; };
+		66BF8DEC1BB1243F00FF6442 /* NSDate-ExtractDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF8DEB1BB1243F00FF6442 /* NSDate-ExtractDate.m */; };
+		66BF8DF71BB1362600FF6442 /* PopEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF8DF61BB1362600FF6442 /* PopEventController.m */; };
+		66BF8E011BB3A4CA00FF6442 /* PopNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF8E001BB3A4CA00FF6442 /* PopNavigationBar.m */; };
+		66BF8E051BB4EF7C00FF6442 /* PopTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF8E041BB4EF7C00FF6442 /* PopTabBarController.m */; };
+		66C050271BA0013C006937FE /* PopupOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C050261BA0013C006937FE /* PopupOptionsViewController.m */; };
+		66C0502A1BA2BAF2006937FE /* PopListStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C050291BA2BAF2006937FE /* PopListStyleCell.m */; };
 		66CCC6C01B94045700DC5510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CCC6BF1B94045700DC5510 /* main.m */; };
 		66CCC6C31B94045700DC5510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CCC6C21B94045700DC5510 /* AppDelegate.m */; };
-		66CCC6C61B94045700DC5510 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CCC6C51B94045700DC5510 /* ViewController.m */; };
 		66CCC6C91B94045700DC5510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CCC6C71B94045700DC5510 /* Main.storyboard */; };
 		66CCC6CB1B94045700DC5510 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CCC6CA1B94045700DC5510 /* Images.xcassets */; };
 		66CCC6CE1B94045700DC5510 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CCC6CC1B94045700DC5510 /* LaunchScreen.xib */; };
 		66CCC6DA1B94045700DC5510 /* ToDo_In_PopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CCC6D91B94045700DC5510 /* ToDo_In_PopTests.m */; };
+		66D7FE641BA71C9D00F0A798 /* DTGlowingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7FE631BA71C9D00F0A798 /* DTGlowingLabel.m */; };
+		66D7FE671BA8612800F0A798 /* EventsForRoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7FE661BA8612800F0A798 /* EventsForRoleViewController.m */; };
+		66D7FE6A1BAA93C100F0A798 /* EventsForRoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7FE691BAA93C100F0A798 /* EventsForRoleView.m */; };
+		66D7FE6D1BAAA98C00F0A798 /* RoleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7FE6C1BAAA98C00F0A798 /* RoleListView.m */; };
+		66E385271B94221200928CA3 /* ZPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E385261B94221200928CA3 /* ZPAlertView.m */; };
+		66E3852B1B94248400928CA3 /* PopRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E3852A1B94248400928CA3 /* PopRole.m */; };
+		66E3852E1B94271D00928CA3 /* RoleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E3852D1B94271D00928CA3 /* RoleListViewController.m */; };
+		66E385351B94549B00928CA3 /* PopEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E385341B94549B00928CA3 /* PopEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +44,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		664E04B31B954E7B007E2B9B /* RoleEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleEditViewController.h; sourceTree = "<group>"; };
+		664E04B41B954E7B007E2B9B /* RoleEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleEditViewController.m; sourceTree = "<group>"; };
+		664E04C11B96DBA4007E2B9B /* EventEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventEditViewController.h; sourceTree = "<group>"; };
+		664E04C21B96DBA4007E2B9B /* EventEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventEditViewController.m; sourceTree = "<group>"; };
+		664E04C81B9812A8007E2B9B /* EventAttributeInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventAttributeInfo.plist; sourceTree = "<group>"; };
+		66BF8DE71BAE88A200FF6442 /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		66BF8DE81BAE88A200FF6442 /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListViewController.m; sourceTree = "<group>"; };
+		66BF8DEA1BB1243F00FF6442 /* NSDate-ExtractDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-ExtractDate.h"; sourceTree = "<group>"; };
+		66BF8DEB1BB1243F00FF6442 /* NSDate-ExtractDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-ExtractDate.m"; sourceTree = "<group>"; };
+		66BF8DF51BB1362600FF6442 /* PopEventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopEventController.h; path = "ToDo In Pop/PopEventController.h"; sourceTree = "<group>"; };
+		66BF8DF61BB1362600FF6442 /* PopEventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopEventController.m; path = "ToDo In Pop/PopEventController.m"; sourceTree = "<group>"; };
+		66BF8DFF1BB3A4CA00FF6442 /* PopNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopNavigationBar.h; sourceTree = "<group>"; };
+		66BF8E001BB3A4CA00FF6442 /* PopNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopNavigationBar.m; sourceTree = "<group>"; };
+		66BF8E031BB4EF7C00FF6442 /* PopTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTabBarController.h; sourceTree = "<group>"; };
+		66BF8E041BB4EF7C00FF6442 /* PopTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTabBarController.m; sourceTree = "<group>"; };
+		66C050251BA0013C006937FE /* PopupOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupOptionsViewController.h; sourceTree = "<group>"; };
+		66C050261BA0013C006937FE /* PopupOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupOptionsViewController.m; sourceTree = "<group>"; };
+		66C050281BA2BAF2006937FE /* PopListStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopListStyleCell.h; sourceTree = "<group>"; };
+		66C050291BA2BAF2006937FE /* PopListStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopListStyleCell.m; sourceTree = "<group>"; };
 		66CCC6BA1B94045700DC5510 /* ToDo In Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo In Pop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CCC6BE1B94045700DC5510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66CCC6BF1B94045700DC5510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66CCC6C11B94045700DC5510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66CCC6C21B94045700DC5510 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		66CCC6C41B94045700DC5510 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		66CCC6C51B94045700DC5510 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		66CCC6C81B94045700DC5510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66CCC6CA1B94045700DC5510 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66CCC6CD1B94045700DC5510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		66CCC6D31B94045700DC5510 /* ToDo In PopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo In PopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CCC6D81B94045700DC5510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66CCC6D91B94045700DC5510 /* ToDo_In_PopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDo_In_PopTests.m; sourceTree = "<group>"; };
+		66D7FE621BA71C9D00F0A798 /* DTGlowingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGlowingLabel.h; sourceTree = "<group>"; };
+		66D7FE631BA71C9D00F0A798 /* DTGlowingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGlowingLabel.m; sourceTree = "<group>"; };
+		66D7FE651BA8612800F0A798 /* EventsForRoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsForRoleViewController.h; sourceTree = "<group>"; };
+		66D7FE661BA8612800F0A798 /* EventsForRoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsForRoleViewController.m; sourceTree = "<group>"; };
+		66D7FE681BAA93C100F0A798 /* EventsForRoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsForRoleView.h; sourceTree = "<group>"; };
+		66D7FE691BAA93C100F0A798 /* EventsForRoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsForRoleView.m; sourceTree = "<group>"; };
+		66D7FE6B1BAAA98C00F0A798 /* RoleListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleListView.h; sourceTree = "<group>"; };
+		66D7FE6C1BAAA98C00F0A798 /* RoleListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleListView.m; sourceTree = "<group>"; };
+		66E385251B94221200928CA3 /* ZPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPAlertView.h; sourceTree = "<group>"; };
+		66E385261B94221200928CA3 /* ZPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPAlertView.m; sourceTree = "<group>"; };
+		66E385291B94248400928CA3 /* PopRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopRole.h; path = ../PopRole.h; sourceTree = "<group>"; };
+		66E3852A1B94248400928CA3 /* PopRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopRole.m; path = ../PopRole.m; sourceTree = "<group>"; };
+		66E3852C1B94271C00928CA3 /* RoleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleListViewController.h; sourceTree = "<group>"; };
+		66E3852D1B94271D00928CA3 /* RoleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleListViewController.m; sourceTree = "<group>"; };
+		66E385331B94549B00928CA3 /* PopEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopEvent.h; sourceTree = "<group>"; };
+		66E385341B94549B00928CA3 /* PopEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +110,167 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		664E04B61B954E84007E2B9B /* RoleEdit */ = {
+			isa = PBXGroup;
+			children = (
+				664E04B31B954E7B007E2B9B /* RoleEditViewController.h */,
+				664E04B41B954E7B007E2B9B /* RoleEditViewController.m */,
+			);
+			name = RoleEdit;
+			sourceTree = "<group>";
+		};
+		664E04B71B954E9C007E2B9B /* EventsForRole */ = {
+			isa = PBXGroup;
+			children = (
+				66D7FE651BA8612800F0A798 /* EventsForRoleViewController.h */,
+				66D7FE661BA8612800F0A798 /* EventsForRoleViewController.m */,
+				66D7FE681BAA93C100F0A798 /* EventsForRoleView.h */,
+				66D7FE691BAA93C100F0A798 /* EventsForRoleView.m */,
+			);
+			name = EventsForRole;
+			sourceTree = "<group>";
+		};
+		664E04B81B954ECA007E2B9B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				664E04BA1B954EFE007E2B9B /* Event */,
+				664E04B91B954EEF007E2B9B /* Role */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		664E04B91B954EEF007E2B9B /* Role */ = {
+			isa = PBXGroup;
+			children = (
+				66E385291B94248400928CA3 /* PopRole.h */,
+				66E3852A1B94248400928CA3 /* PopRole.m */,
+			);
+			name = Role;
+			sourceTree = "<group>";
+		};
+		664E04BA1B954EFE007E2B9B /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				66E385331B94549B00928CA3 /* PopEvent.h */,
+				66E385341B94549B00928CA3 /* PopEvent.m */,
+				664E04C81B9812A8007E2B9B /* EventAttributeInfo.plist */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		664E04BB1B954F0D007E2B9B /* RoleList */ = {
+			isa = PBXGroup;
+			children = (
+				66E3852C1B94271C00928CA3 /* RoleListViewController.h */,
+				66E3852D1B94271D00928CA3 /* RoleListViewController.m */,
+				66D7FE6B1BAAA98C00F0A798 /* RoleListView.h */,
+				66D7FE6C1BAAA98C00F0A798 /* RoleListView.m */,
+			);
+			name = RoleList;
+			sourceTree = "<group>";
+		};
+		664E04BC1B95918A007E2B9B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				66CCC6C11B94045700DC5510 /* AppDelegate.h */,
+				66CCC6C21B94045700DC5510 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		664E04C41B96DBA9007E2B9B /* EventEdit */ = {
+			isa = PBXGroup;
+			children = (
+				664E04C11B96DBA4007E2B9B /* EventEditViewController.h */,
+				664E04C21B96DBA4007E2B9B /* EventEditViewController.m */,
+			);
+			name = EventEdit;
+			sourceTree = "<group>";
+		};
+		664E04CF1B9C9C53007E2B9B /* PopListItemSytle */ = {
+			isa = PBXGroup;
+			children = (
+				66C050281BA2BAF2006937FE /* PopListStyleCell.h */,
+				66C050291BA2BAF2006937FE /* PopListStyleCell.m */,
+			);
+			name = PopListItemSytle;
+			sourceTree = "<group>";
+		};
+		66BF8DE41BAE87F200FF6442 /* RoleView */ = {
+			isa = PBXGroup;
+			children = (
+				664E04BB1B954F0D007E2B9B /* RoleList */,
+				664E04B61B954E84007E2B9B /* RoleEdit */,
+				664E04B71B954E9C007E2B9B /* EventsForRole */,
+				66C050211B9F10B5006937FE /* PopupOptionsViewController */,
+				664E04C41B96DBA9007E2B9B /* EventEdit */,
+			);
+			name = RoleView;
+			sourceTree = "<group>";
+		};
+		66BF8DE51BAE883200FF6442 /* EventView */ = {
+			isa = PBXGroup;
+			children = (
+				66BF8DE61BAE885900FF6442 /* EventList */,
+			);
+			name = EventView;
+			sourceTree = "<group>";
+		};
+		66BF8DE61BAE885900FF6442 /* EventList */ = {
+			isa = PBXGroup;
+			children = (
+				66BF8DE71BAE88A200FF6442 /* EventListViewController.h */,
+				66BF8DE81BAE88A200FF6442 /* EventListViewController.m */,
+			);
+			name = EventList;
+			sourceTree = "<group>";
+		};
+		66BF8DED1BB1244900FF6442 /* NSDate-ExtractDate */ = {
+			isa = PBXGroup;
+			children = (
+				66BF8DEA1BB1243F00FF6442 /* NSDate-ExtractDate.h */,
+				66BF8DEB1BB1243F00FF6442 /* NSDate-ExtractDate.m */,
+			);
+			name = "NSDate-ExtractDate";
+			sourceTree = "<group>";
+		};
+		66BF8DEE1BB134FC00FF6442 /* PopEventController */ = {
+			isa = PBXGroup;
+			children = (
+				66BF8DF51BB1362600FF6442 /* PopEventController.h */,
+				66BF8DF61BB1362600FF6442 /* PopEventController.m */,
+			);
+			name = PopEventController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		66BF8DFE1BB3A48300FF6442 /* PopNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				66BF8DFF1BB3A4CA00FF6442 /* PopNavigationBar.h */,
+				66BF8E001BB3A4CA00FF6442 /* PopNavigationBar.m */,
+			);
+			name = PopNavigationBar;
+			sourceTree = "<group>";
+		};
+		66BF8E021BB4EF3E00FF6442 /* PopTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				66BF8E031BB4EF7C00FF6442 /* PopTabBarController.h */,
+				66BF8E041BB4EF7C00FF6442 /* PopTabBarController.m */,
+			);
+			name = PopTabBarController;
+			sourceTree = "<group>";
+		};
+		66C050211B9F10B5006937FE /* PopupOptionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66C050251BA0013C006937FE /* PopupOptionsViewController.h */,
+				66C050261BA0013C006937FE /* PopupOptionsViewController.m */,
+			);
+			name = PopupOptionsViewController;
+			sourceTree = "<group>";
+		};
 		66CCC6B11B94045700DC5510 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +292,20 @@
 		66CCC6BC1B94045700DC5510 /* ToDo In Pop */ = {
 			isa = PBXGroup;
 			children = (
-				66CCC6C11B94045700DC5510 /* AppDelegate.h */,
-				66CCC6C21B94045700DC5510 /* AppDelegate.m */,
-				66CCC6C41B94045700DC5510 /* ViewController.h */,
-				66CCC6C51B94045700DC5510 /* ViewController.m */,
+				66BF8E021BB4EF3E00FF6442 /* PopTabBarController */,
+				66BF8DFE1BB3A48300FF6442 /* PopNavigationBar */,
+				66BF8DED1BB1244900FF6442 /* NSDate-ExtractDate */,
+				66D7FE611BA71C8000F0A798 /* DTGlowingLabel */,
+				664E04CF1B9C9C53007E2B9B /* PopListItemSytle */,
+				664E04BC1B95918A007E2B9B /* AppDelegate */,
+				66BF8DEE1BB134FC00FF6442 /* PopEventController */,
+				664E04B81B954ECA007E2B9B /* Entity */,
+				66BF8DE41BAE87F200FF6442 /* RoleView */,
+				66BF8DE51BAE883200FF6442 /* EventView */,
 				66CCC6C71B94045700DC5510 /* Main.storyboard */,
 				66CCC6CA1B94045700DC5510 /* Images.xcassets */,
 				66CCC6CC1B94045700DC5510 /* LaunchScreen.xib */,
+				66E385281B94221600928CA3 /* ZPAlertView */,
 				66CCC6BD1B94045700DC5510 /* Supporting Files */,
 			);
 			path = "ToDo In Pop";
@@ -119,6 +337,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		66D7FE611BA71C8000F0A798 /* DTGlowingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				66D7FE621BA71C9D00F0A798 /* DTGlowingLabel.h */,
+				66D7FE631BA71C9D00F0A798 /* DTGlowingLabel.m */,
+			);
+			name = DTGlowingLabel;
+			sourceTree = "<group>";
+		};
+		66E385281B94221600928CA3 /* ZPAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				66E385251B94221200928CA3 /* ZPAlertView.h */,
+				66E385261B94221200928CA3 /* ZPAlertView.m */,
+			);
+			name = ZPAlertView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +365,7 @@
 				66CCC6B61B94045700DC5510 /* Sources */,
 				66CCC6B71B94045700DC5510 /* Frameworks */,
 				66CCC6B81B94045700DC5510 /* Resources */,
+				66E3852F1B944A6A00928CA3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -200,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CCC6C91B94045700DC5510 /* Main.storyboard in Resources */,
+				664E04C91B9812A8007E2B9B /* EventAttributeInfo.plist in Resources */,
 				66CCC6CE1B94045700DC5510 /* LaunchScreen.xib in Resources */,
 				66CCC6CB1B94045700DC5510 /* Images.xcassets in Resources */,
 			);
@@ -214,14 +452,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66E3852F1B944A6A00928CA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66CCC6B61B94045700DC5510 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CCC6C61B94045700DC5510 /* ViewController.m in Sources */,
 				66CCC6C31B94045700DC5510 /* AppDelegate.m in Sources */,
+				66C0502A1BA2BAF2006937FE /* PopListStyleCell.m in Sources */,
+				66D7FE671BA8612800F0A798 /* EventsForRoleViewController.m in Sources */,
+				66D7FE641BA71C9D00F0A798 /* DTGlowingLabel.m in Sources */,
+				66D7FE6D1BAAA98C00F0A798 /* RoleListView.m in Sources */,
+				66E385271B94221200928CA3 /* ZPAlertView.m in Sources */,
+				664E04B51B954E7B007E2B9B /* RoleEditViewController.m in Sources */,
+				664E04C31B96DBA4007E2B9B /* EventEditViewController.m in Sources */,
+				66BF8DEC1BB1243F00FF6442 /* NSDate-ExtractDate.m in Sources */,
 				66CCC6C01B94045700DC5510 /* main.m in Sources */,
+				66E3852E1B94271D00928CA3 /* RoleListViewController.m in Sources */,
+				66E385351B94549B00928CA3 /* PopEvent.m in Sources */,
+				66BF8DE91BAE88A200FF6442 /* EventListViewController.m in Sources */,
+				66E3852B1B94248400928CA3 /* PopRole.m in Sources */,
+				66BF8DF71BB1362600FF6442 /* PopEventController.m in Sources */,
+				66BF8E051BB4EF7C00FF6442 /* PopTabBarController.m in Sources */,
+				66BF8E011BB3A4CA00FF6442 /* PopNavigationBar.m in Sources */,
+				66D7FE6A1BAA93C100F0A798 /* EventsForRoleView.m in Sources */,
+				66C050271BA0013C006937FE /* PopupOptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "ToDo In Pop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +626,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "ToDo In Pop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -414,6 +688,7 @@
 				66CCC6DF1B94045700DC5510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66CCC6E01B94045700DC5510 /* Build configuration list for PBXNativeTarget "ToDo In PopTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +697,7 @@
 				66CCC6E21B94045700DC5510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

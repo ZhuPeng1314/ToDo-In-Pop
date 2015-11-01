@@ -14,9 +14,19 @@
 
 @implementation AppDelegate
 
+@synthesize eventStore;
+@synthesize isAccessToEventStoreGranted;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.eventStore = [[EKEventStore alloc] init];
+    self.isAccessToEventStoreGranted = NO;
+    [self updateAuthorizationStatusToAccessEventStore];
+    
+    self.window.tintColor = [UIColor colorWithRed:9.0/256.0 green:99.0/256.0  blue:154.0/256.0  alpha:1.0];
+    
     return YES;
 }
 
@@ -40,6 +50,39 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)updateAuthorizationStatusToAccessEventStore
+{
+    EKAuthorizationStatus authorizationStatus = [EKEventStore authorizationStatusForEntityType:(EKEntityTypeEvent)];
+    
+    switch (authorizationStatus) {
+        case EKAuthorizationStatusRestricted:
+        case EKAuthorizationStatusDenied:
+        {
+            self.isAccessToEventStoreGranted = NO;
+            NSAssert(NO, @"用户不允许访问日历！");
+            break;
+        }
+        case EKAuthorizationStatusAuthorized:
+        {
+            self.isAccessToEventStoreGranted = YES;
+            break;
+        }
+        case EKAuthorizationStatusNotDetermined:
+        {
+            [self.eventStore requestAccessToEntityType:(EKEntityTypeEvent)
+                                            completion:^(BOOL granted, NSError *error)
+             {
+                 dispatch_async(dispatch_get_main_queue(),^{
+                     self.isAccessToEventStoreGranted = granted;
+                 });
+             }];
+            break;
+        }
+        default:
+            break;
+    }
 }
 
 @end

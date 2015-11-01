@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RecurrenceTimeUnitName</key>
+	<array>
+		<string>天</string>
+		<string>周</string>
+		<string>月</string>
+		<string>Pop年</string>
+		<string>永不</string>
+	</array>
+	<key>EventTypeName</key>
+	<array>
+		<string>生日</string>
+		<string>自定义</string>
+		<string>魔方</string>
+		<string>秘之书</string>
+		<string>圣诞怪杰</string>
+		<string>祖母画像</string>
+	</array>
+</dict>
+</plist>
